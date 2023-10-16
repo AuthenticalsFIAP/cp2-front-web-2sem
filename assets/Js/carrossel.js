@@ -3,14 +3,14 @@
 
 // declarando o objeto de imagens em um array
 let imagens = [
-  '/assets/img/nike-banner.png',
-  '/assets/img/futebol.png',
-  '/assets/img/2.png',
+  'assets/img/nike-banner.png',
+  'assets/img/futebol.png',
+  'assets/img/2.png',
 ];
 
 // declarando links correspondentes
 let links = [
-  '/assets/html/nike-page.html',
+  'assets/html/nike-page.html',
   'https://www.example.com/link2',
   'https://www.example.com/link2'
 ];
