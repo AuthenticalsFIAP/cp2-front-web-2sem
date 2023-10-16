@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="shortcut icon" href="/assets/img/logo sem fundo.png">
+  <title>Sport World</title>
+</head>
+
+<body>
+  <header>
+    <nav class="nav-bar">
+      <div class="logo">
+        <a href="/"><img class="logo-imagem" src="/assets/img/logo.png" alt=""></a>
+      </div>
+      <div class="nav-list">
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">Início</a></li>
+          <li class="nav-item"><a href="#Produtos" class="nav-link">Produtos</a></li>
+          <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+          <li class="nav-item"><a href="#Contato" class="nav-link">Contato</a></li>
+
+        </ul>
+      </div>
+      <div class="mobile-menu-icon">
+        <button onclick="menuShow()"><img class="icon" src="/assets/img/burger-menu-svgrepo-com.svg" alt=""></button>
+      </div>
+    </nav>
+    <div class="mobile-menu">
+      <ul>
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Produtos</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Sobre</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Contato</a></li>
+      </ul>
+    </div>
+  </header>
+  <div>
+    <!-- Adicionando um elemento <a> com o ID 'img-link' para envolver a imagem -->
+    <a id="img-link" href="#">
+      <img id="img-banner" src="" alt="Imagem do Slideshow">
+    </a>
+  </div>
+  <section class="secao">
+    <div class="titulo-secao">
+      <h1>Navegue por seção:</h1>
+    </div>
+    <section class="cards">
+      <div class="card">
+        <img class="cartaz" src="/assets/img/10 (3).png" title="Imagem" alt="Masculino">
+        <h3>Masculino</h3>
+      </div>
+      <div class="card">
+        <img class="cartaz" src="/assets/img/10 (1).png" title="Imagem" alt="Feminino">
+        <h3>Feminino</h3>
+      </div>
+      <div class="card">
+        <img class="cartaz" src="/assets/img/10 (2).png" title="Imagem" alt="Infantil">
+        <h3>Infantil</h3>
+      </div>
+      </div>
+    </section>
+  </section>
+  <div class="secao-2">
+    <a href="/"><img id="img-banner" src="/assets/img/8.png" alt=""></a>
+  </div>
+
+  <div class="produtos" id="Produtos">
+    <h2>Produtos em destaque:</h2>
+  </div>
+  <div class="produtos-cards">
+    <div class="produtos-card">
+      <img class="produtos-cartaz" src="/assets/img/Design sem nome (1).png" title="Imagem" alt="Imagem">
+      <h3>Air Jordan Azul</h3>
+      <p>R$ 974,98</p>
+    </div>
+    <div class="produtos-card">
+      <img class="produtos-cartaz" src="/assets/img/tenis.png" title="Imagem" alt="Imagem">
+      <h3>Tenis de corrida Nike</h3>
+      <p>R$ 239,99</p>
+    </div>
+    <div class="produtos-card">
+      <img class="produtos-cartaz" src="/assets/img/tenis1.png" title="Imagem" alt="Imagem">
+      <h3>Vans</h3>
+      <p>R$ 199,99</p>
+    </div>
+    <div class="produtos-card">
+      <img class="produtos-cartaz" src="/assets/img/tenis2.png" title="Imagem" alt="Imagem">
+      <h3>Air Jordan laranja</h3>
+      <p>R$ 879,99</p>
+    </div>
+  </div>
+  <div class="produtos-carrossel">
+    <!-- Adicionando um elemento <a> com o ID 'img-link' para envolver a imagem -->
+    <a id="produto-link" href="" target="_blank">
+      <img id="img-produtos" src="" alt="Imagem do produto">
+    </a>
+    <h3 id="descricao-produtos"></h3>
+    <p id="preco-produtos"></p>
+  </div>
+
+  <div class="secao-3">
+    <a href="/"><img id="img-banner3" src="/assets/img/4.png" alt=""></a>
+  </div>
+
+  <section id="sobre">
+    <div class="sobre_texto">
+      <h2>Sobre</h2>
+      <p>Bem-vindo ao Sports World, o seu destino definitivo para tudo relacionado ao mundo dos esportes! Somos muito mais do que uma simples loja de artigos esportivos; somos uma comunidade apaixonada por esportes que compartilha sua paixão por atividades físicas e bem-estar. Aqui, acreditamos que o esporte é mais do que apenas um passatempo, é um estilo de vida.
+      <p>
+    </div>
+    <img src="/assets/img/pngwing.com (12).png" alt="">
+  </section>
+
+  <section class="contato" id="Contato">
+    <div class="mapas">
+      <h2>Nos encontre em:</h2>
+      <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1215011243066!2d-46.6549667882481!3d-23.564079361605287!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7dbf9ff57%3A0x4ca8eb5c4f7ecca9!2sFIAP%20-%20Paulista!5e0!3m2!1spt-BR!2sbr!4v1697156147868!5m2!1spt-BR!2sbr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+    <div>
+      <form>
+        <h2 class="contato-titulo">Contato</h2>
+        <div>
+          <label for="name"></label>
+          <input type="text" id="nome" placeholder="Nome">
+        </div>
+        <div>
+          <label for="name"></label>
+          <input type="text" id="nome" placeholder="Sobrenome">
+        </div>
+        <div>
+          <label for="number"></label>
+          <input type="number" id="nome" placeholder="Telefone">
+        </div>
+        <div>
+          <label for="email"></label>
+          <input type="email" id="email" placeholder="Email">
+        </div>
+        <div>
+          <label for="texto"></label>
+          <textarea id="text" placeholder="Mensagem"></textarea>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div id="footer_content">
+        <div id="footer_contacts">
+            <img class="logo-imagem" src="/assets/img/logo.png" alt="">
+            <p>Sua loja mundial de esportes.</p>
+            <div id="footer_social_media">
+                <a href="#" class="footer-link">
+                    <img src="/assets/img/instagram-40.svg" alt="">
+                </a>
+                <a href="#" class="footer-link">
+                  <img src="/assets/img/facebook-13.svg" alt="">
+                </a>
+                <a href="#" class="footer-link">
+                  <img src="/assets/img/linkedin-83.svg" alt="">
+                </a>
+            </div>
+        </div>
+        </div>
+    </div>
+    <div id="footer_copyright">
+        <p>@2023 todos direitos reservados</p>
+    </div>
+</footer>
+  <script src="/assets/Js/carrossel-mobile.js"></script>
+  <script src="/assets/js/carrossel.js"></script>
+  <script src="/assets/js/mobile.js"></script>
+</body>
+</html>
