@@ -8,7 +8,6 @@ header {
     justify-content: space-between;
     padding: 1.5rem 6rem;
     align-items: center;
-    
 }
 
 .logo {
@@ -31,7 +30,12 @@ header {
     justify-content: center;
     list-style: none;
 }
-
+.nav-list ul li:hover{
+    transform: scale(1.1);
+    text-decoration: underline;
+    transition: all 0.1s ease-in;
+    cursor: pointer;
+}
 .nav-item {
     margin: 0 15px;
 }
@@ -56,7 +60,6 @@ header {
     width: 3rem;
     color: black;
 }
-
 /*Tirando o menu hamburguer da versão desktop*/
 
 .mobile-menu-icon {
