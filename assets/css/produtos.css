@@ -21,13 +21,14 @@
     display: inline-block;
     box-sizing: border-box;
     height: auto;
+    transition: all 0.2s ease-in;
 }
 
 .produtos-cartaz{
   width: 100%;
   text-align: center;
   margin: auto;
-  height: 90%;
+  height: auto;
 }
 
 .produtos h2{
@@ -41,15 +42,20 @@
   color: black;
   font-size: 1rem;
   font-family: 'Montserrat', sans-serif;  font-weight: 400;
+  background-color: #42413c00;
+  transition: all 0.2s ease-in;
 }
 .produtos-carrossel{
   display: none;
 }
 .produtos-card:hover{
-  width: 25%;
+  transform: scale(1.1);
   background-color: black;
   color: white;
   cursor: pointer;
+}
+.produtos-card:hover > h3{
+  color: white;
 }
 
 
@@ -70,5 +76,5 @@
     display: inline-block;
     box-sizing: border-box;
     height: auto;
-}
+ }
 }
