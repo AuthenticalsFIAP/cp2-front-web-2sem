@@ -27,8 +27,7 @@
   width: 100%;
   text-align: center;
   margin: auto;
-  border-radius: 10px;
-  height: auto;
+  height: 90%;
 }
 
 .produtos h2{
@@ -46,7 +45,12 @@
 .produtos-carrossel{
   display: none;
 }
-
+.produtos-card:hover{
+  width: 25%;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
 
 
 
