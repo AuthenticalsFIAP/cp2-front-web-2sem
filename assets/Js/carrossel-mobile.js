@@ -1,9 +1,9 @@
 // Declarando o objeto de imagens em um array
 let imagens1 = [
-  'img/Design sem nome (1).png',
-  'img/tenis.png',
-  'img/tenis1.png',
-  'img/tenis2.png'
+  'assets/img/Design sem nome (1).png',
+  'assets/img/tenis.png',
+  'assets/img/tenis1.png',
+  'assets/img/tenis2.png'
 ];
 
 // Declarando links correspondentes
